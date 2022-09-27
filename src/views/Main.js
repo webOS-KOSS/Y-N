@@ -13,9 +13,11 @@ const Main = () =>{
 			<div className='sub'>
 				<div className='title'>구성원이 배송품을 수령했습니까?</div>
 				<div className='but'>
-						<Button backgroundOpacity='transparent' size='small' onClick={yesServiceStart}>예</Button>
-						<Button backgroundOpacity='transparent' size='small' onClick={noServiceStart}>아니오</Button>
-				</div>
+					<Button backgroundOpacity='transparent' size='small' onClick={yesServiceStart}>예</Button>
+					</div>
+					<div className='but'>
+					<Button backgroundOpacity='transparent' size='small' onClick={noServiceStart}>아니오</Button>
+					</div>
 			</div>
 		</div>
 	)
